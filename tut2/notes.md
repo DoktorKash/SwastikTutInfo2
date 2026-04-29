@@ -706,3 +706,58 @@ Whenever solving pattern:
 3. Find what changes each row
 4. Use nested loops
 
+# PU answers
+for each question you can make a seperate file, i saw that you have still not started with how functions are written so the solutions can be used in the **main** function of each file.
+For e.g. for the first question's solution you can make a Chess java class like we discussed today and just put the following solution code in the main method of that file.
+
+### Ans 1
+```jave
+int n = 4;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                int value = (i + j) % 2 == 0 ? 1 : 0;
+                System.out.print(value);
+
+                if (j < n - 1) {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+```
+
+### Ans 2
+```java
+    int n = 5;
+    double sum = 0.0;
+    double factorial = 1.0;
+
+    for (int k = 0; k <= n; k++) {
+        if (k > 0) {
+            factorial *= k;
+        }
+        sum += 1.0 / factorial;
+    }
+
+    System.out.println(sum);
+
+```
+
+### Ans 3
+``` java
+    int n = 12;
+    boolean primality = true;
+    if (n < 2) {
+        primality = false;
+    }
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) {
+            primality = false;
+            break;
+        }
+    }
+    System.out.println(primality);
+```
+
