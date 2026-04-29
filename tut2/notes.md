@@ -10,6 +10,9 @@ Java usually runs code **top to bottom**, but with control flow we can:
 * repeat code → `for`
 * repeat while condition is true → `while`
 
+### Side note
+- The questions files for the Praesenzblatt are in the [material repository](https://github.com/pi-tuebingen/material) (this is a link, you can click on it) under **tutorium**
+
 ---
 
 # 1. IF Statement (Decision Making)
