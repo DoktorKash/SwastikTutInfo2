@@ -711,20 +711,20 @@ for each question you can make a seperate file, i saw that you have still not st
 For e.g. for the first question's solution you can make a Chess java class like we discussed today and just put the following solution code in the main method of that file.
 
 ### Ans 1
-```jave
-int n = 4;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+```java
+    int n = 4;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
 
-                int value = (i + j) % 2 == 0 ? 1 : 0;
-                System.out.print(value);
+            int value = (i + j) % 2 == 0 ? 1 : 0;
+            System.out.print(value);
 
-                if (j < n - 1) {
-                    System.out.print(" ");
-                }
+            if (j < n - 1) {
+                System.out.print(" ");
             }
-            System.out.println();
         }
+        System.out.println();
+    }
 
 ```
 
