@@ -728,7 +728,24 @@ int n = 4;
 
 ```
 
+
+
 ### Ans 2
+``` java
+    int n = 12;
+    boolean primality = true;
+    if (n < 2) {
+        primality = false;
+    }
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) {
+            primality = false;
+            break;
+        }
+    }
+    System.out.println(primality);
+```
+### Ans 3
 ```java
     int n = 5;
     double sum = 0.0;
@@ -744,20 +761,3 @@ int n = 4;
     System.out.println(sum);
 
 ```
-
-### Ans 3
-``` java
-    int n = 12;
-    boolean primality = true;
-    if (n < 2) {
-        primality = false;
-    }
-    for (int i = 2; i < n; i++) {
-        if (n % i == 0) {
-            primality = false;
-            break;
-        }
-    }
-    System.out.println(primality);
-```
-
